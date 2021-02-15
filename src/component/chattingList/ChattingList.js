@@ -9,7 +9,7 @@ export default function ChattingList(){
             <ButtonAppBar></ButtonAppBar>
             <ChipsRoom></ChipsRoom>
             <FullWidthTabs></FullWidthTabs>
-            <ButtonRoom></ButtonRoom>
+            <ButtonRoom name="방만들기"></ButtonRoom>
         </div>
     );
 }

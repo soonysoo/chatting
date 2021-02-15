@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-export default function ButtonRoom() {
+export default function ButtonRoom(props) {
   const classes = useStyles();
 
   return (
@@ -22,7 +22,7 @@ export default function ButtonRoom() {
         variant="contained"
         color="primary" 
         className={classes.root}>
-        방만들기
+        {props.name}
       </Button>
     </div>  
   );
